@@ -26,14 +26,14 @@ VALUES (value1, value2);
 
 ### ALTER TABLE Statement
 The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with teh **ADD COLUMN** clause, it is used to add a new column.
-```
+```SQL
 ALTER TABLE table_name
 ADD column_name datetype;
 ```
 
 ### DELETE Statement
 The **DELETE** statement is used to delete records (rows) is a table. The **WHERE** clause specifies which record or records that should be deleted. If the **WHERE** clause is omitted, all records will be deleted.
-```
+```SQL
 DELETE FROM table_name
 WHERE some_column = some_value;
 ```
