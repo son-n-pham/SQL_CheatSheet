@@ -4,7 +4,7 @@
 
 ### CREATE TABLE Statement
 The **CREATE TABLE** statement creates a new table in a database.
-```SQL
+```
 CREATE TABLE table_name (
   column1 datatype,
   column2 datatype,
