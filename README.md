@@ -30,6 +30,7 @@ it is used to edit records (rows) in a table. It includes a **SET** cluase that 
 UPDATE table_name
 SET column1 = value1, column2 = value2
 WHERE some_column = some_value;
+```
 
 ### ALTER TABLE Statement
 The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with teh **ADD COLUMN** clause, it is used to add a new column.
