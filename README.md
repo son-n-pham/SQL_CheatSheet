@@ -25,7 +25,7 @@ VALUES (value1, value2);
 ```
 
 ### UPDATE Statement
-it is used to edit records (rows) in a table. It includes a **SET** clause that indicaes the column to edit and a **WHERE** cluase for specifiying the records(s)
+It is used to edit records (rows) in a table. It includes a **SET** clause that indicates the column to edit and a **WHERE** clause for specifiying the records(s)
 ```SQL
 UPDATE table_name
 SET column1 = value1, column2 = value2
@@ -33,7 +33,7 @@ WHERE some_column = some_value;
 ```
 
 ### ALTER TABLE Statement
-The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with teh **ADD COLUMN** clause, it is used to add a new column.
+The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with the **ADD COLUMN** clause, it is used to add a new column.
 ```SQL
 ALTER TABLE table_name
 ADD column_name datetype;
@@ -51,7 +51,7 @@ They are rules applied to the values of individual columns:
 - **PRIMARY KEY** constraint can be used to uniquely identify the row. There can be only one **PRIMARY KEY** column per table.
 - **UNIQUE** columns have a different value for every row. There can be multiple **UNIQUE** columns.
 - **NOT NULL** columns must have a value.
-- **DEFAULT** assigns a default value for the oclumn when no value is specified.
+- **DEFAULT** assigns a default value for the column when no value is specified.
 ```SQL
 CREATE TABLE student (
   id INTEGER PRIMARY KEY,
