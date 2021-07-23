@@ -31,7 +31,7 @@
 :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
 <hr>
 
-## [MANIPULATION](#manipulation-):
+## [MANIPULATION]:
 
 ### CREATE TABLE Statement: creates a new table.
 The **CREATE TABLE** statement creates a new table in a database.
