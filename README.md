@@ -1,9 +1,5 @@
 # SQL CheatSheet
 
-[MANIPULATION](## MANIPULATION)
-
-[GitHub](http://github.com)
-
 ## MANIPULATION:
 
 ### CREATE TABLE Statement
