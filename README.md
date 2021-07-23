@@ -92,6 +92,9 @@ CREATE TABLE student (
   age INTEGER DEFAULT 10
 );
 ```
+
+:muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: 
+
 ## [QUERIES](#queries-)
 
 ### SELECT Statement: is the clause we use every time we want to query information from a database.
