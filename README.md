@@ -86,7 +86,7 @@ CREATE TABLE student (
 ```
 ## QUERIES:
 
-### SELECT Statement:
+### SELECT Statement: is the clause we use every time we want to query information from a database.
 The <b>SELECT *</b> statement returns all columns from the provided table in the result. We can also select any column by its header.
 
 ```SQL
@@ -94,7 +94,7 @@ SELECT *
 FROM movies;
 ```
 
-### AS Clause
+### AS Clause: renames a column or table.
 Columns or tables can be aliased using <b>AS</b> clause.
 
 ```SQL
@@ -102,7 +102,7 @@ SELECT name AS 'movie_title'
 FROM movies;
 ```
 
-### DISTINCT Clause
+### DISTINCT Clause: return unique values.
 This is used to select unique values of a column.
 
 ```SQL
@@ -110,7 +110,7 @@ SELECT DISTINCT city
 FROM contact_details;
 ```
 
-### WHERE Clause
+### WHERE Clause: is a popular command to filter the results of the query based on specified conditions.
 This is used to filter records (rows) matching a certain ncondition. This below example select all rows where the pub_year equals 2017.
 
 ```SQL
@@ -171,7 +171,7 @@ FROM customers
 WHERE state = 'CA'
   OR state = 'NY';
 ```
-### ORDER BY Clause
+### ORDER BY Clause: sorts the result.
 This can be used to sort the result by particular column in descending (with **DESC** keyword) or ascending (with **ASC** keyword) order.
 
 ```SQL
@@ -180,7 +180,7 @@ FROM contacts
 ORDER BY birth_date DESC;
 ```
 
-### LIMIT Clause
+### LIMIT Clause: specifies the maximum number of rows that the query will return.
 This is used to narrow or limit the result. The below example is to select 5 rows.
 
 ```SQL
@@ -189,8 +189,8 @@ FROM movies
 LIMIT 5;
 ```
 
-### CASE Statement
-This is SQL's way of handling if-then logic
+### CASE Statement: creates different outputs.
+This is SQL's way of handling if-then logic.
 
 ```SQL
 SELECT name,
