@@ -1,7 +1,7 @@
 # SQL CheatSheet
 
-[MNIPULATION](## MANIPULATION:)
-
+[MANIPULATION](## MANIPULATION:)
+[GitHub](http://github.com)
 
 ## MANIPULATION:
 
