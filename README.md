@@ -228,7 +228,7 @@ FROM movies;
 
 ![image](https://user-images.githubusercontent.com/79841341/126803072-467b61a2-4b0d-4ff9-bc4d-6114699cebf7.png)
 
-OR operator can be used to have the same result as above.
+OR operator can be used to have the same result as the above.
 
 ```SQL
 SELECT name,
