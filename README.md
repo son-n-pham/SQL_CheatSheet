@@ -28,8 +28,9 @@
 
 *Cheatsheet is referred from materials of Codecademy*
 
-<hr>
+
 :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
+
 
 ## [MANIPULATION](#manipulation-):
 
