@@ -25,6 +25,7 @@
     + [CASE Statement: creates different outputs.](#case-statement--creates-different-outputs)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+*Cheatsheet is referred from materials of Codecademy*
 
 
 ## MANIPULATION:
