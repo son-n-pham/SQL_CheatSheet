@@ -1,6 +1,6 @@
 # SQL CheatSheet
 
-## Manipulation:
+## MANIPULATION:
 
 ### CREATE TABLE Statement
 The **CREATE TABLE** statement creates a new table in a database.
@@ -59,3 +59,9 @@ CREATE TABLE student (
   grade INTEGER NOT NULL,
   age INTEGER DEFAULT 10
 );
+```
+## QUERIES:
+
+### SELECT Statement:
+The **SELECT \* **
+
