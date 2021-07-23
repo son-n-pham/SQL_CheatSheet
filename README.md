@@ -1,32 +1,8 @@
 # SQL CheatSheet
 
-- [SQL CheatSheet](#sql-cheatsheet)
-  * [MANIPULATION:](#manipulation-)
-    + [CREATE TABLE Statement](#create-table-statement)
-    + [INSERT Statement](#insert-statement)
-    + [UPDATE Statement](#update-statement)
-    + [ALTER TABLE Statement](#alter-table-statement)
-    + [DELETE Statement](#delete-statement)
-    + [Column Constraints](#column-constraints)
-  * [QUERIES:](#queries-)
-    + [SELECT Statement:](#select-statement-)
-    + [AS Clause](#as-clause)
-    + [DISTINCT Clause](#distinct-clause)
-    + [WHERE Clause](#where-clause)
-    + [LIKE  Operator](#like--operator)
-    + [NULL Values](#null-values)
-    + [BETWEEN Operator](#between-operator)
-    + [AND Operator](#and-operator)
-    + [OR Opertor](#or-opertor)
-    + [ORDER BY Clause](#order-by-clause)
-    + [LIMIT Clause](#limit-clause)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## MANIPULATION:
 
-### CREATE TABLE Statement
+### CREATE TABLE Statement: creates a new table.
 The **CREATE TABLE** statement creates a new table in a database.
 ```SQL
 CREATE TABLE table_name (
@@ -36,7 +12,7 @@ CREATE TABLE table_name (
  )
  ```
 
-### INSERT Statement
+### INSERT INTO Statement: adds a new row to a table.
 The **INSERT INTO** statement is used to add a new record (row) to a table, which has 2 forms:
 ```SQL
 -- Insert into columns in order:
@@ -48,7 +24,7 @@ INSERT INTO table_name (column1, column2)
 VALUES (value1, value2);
 ```
 
-### UPDATE Statement
+### UPDATE Statement: edits a row in a table.
 It is used to edit records (rows) in a table. It includes a **SET** clause that indicates the column to edit and a **WHERE** clause for specifiying the records(s)
 ```SQL
 UPDATE table_name
@@ -56,21 +32,21 @@ SET column1 = value1, column2 = value2
 WHERE some_column = some_value;
 ```
 
-### ALTER TABLE Statement
+### ALTER TABLE Statement: changes an existing table.
 The **ALTER TABLE** statement is used to modify the columns of an existing table. When combined with the **ADD COLUMN** clause, it is used to add a new column.
 ```SQL
 ALTER TABLE table_name
 ADD column_name datetype;
 ```
 
-### DELETE Statement
+### DELETE Statement: deletes rows from a table.
 The **DELETE** statement is used to delete records (rows) is a table. The **WHERE** clause specifies which record or records that should be deleted. If the **WHERE** clause is omitted, all records will be deleted.
 ```SQL
 DELETE FROM table_name
 WHERE some_column = some_value;
 ```
 
-### Column Constraints
+### Column Constraints: add information about how a column can be used.
 They are rules applied to the values of individual columns:
 - **PRIMARY KEY** constraint can be used to uniquely identify the row. There can be only one **PRIMARY KEY** column per table.
 - **UNIQUE** columns have a different value for every row. There can be multiple **UNIQUE** columns.
@@ -121,7 +97,7 @@ WHERE pub_year = 2017;
 
 ### LIKE  Operator
 This operator can be used inside a **WHERE** clause. There are 2 wildcard can be used with **LIKE**:
-- _ Wildcard: is used to match any single unspecified character.
+#### _ Wildcard: is used to match any single unspecified character.
   
   ```SQL
   SELECT name
@@ -129,7 +105,7 @@ This operator can be used inside a **WHERE** clause. There are 2 wildcard can be
   WHERE name LIKE '_ove';
   ```  
   
-- % Wildcard: ised used match to match zero or more unspecified characters. Below example will match any movies starting with "The"
+#### % Wildcard: ised used match to match zero or more unspecified characters. Below example will match any movies starting with "The"
   
   ```SQL
   SELECT name
