@@ -63,5 +63,104 @@ CREATE TABLE student (
 ## QUERIES:
 
 ### SELECT Statement:
-The <b>SELECT *</b>
+The <b>SELECT *</b> statement returns all columns from the provided table in the result. We can also select any column by its header.
 
+```SQL
+SELECT *
+FROM movies;
+```
+
+### AS Clause
+Columns or tables can be aliased using <b>AS</b> clause.
+
+```SQL
+SELECT name AS 'movie_title'
+FROM movies;
+```
+
+### DISTINCT Clause
+This is used to select unique values of a column.
+
+```SQL
+SELECT DISTINCT city
+FROM contact_details;
+```
+
+### WHERE Clause
+This is used to filter records (rows) matching a certain ncondition. This below example select all rows where the pub_year equals 2017.
+
+```SQL
+SELECT title
+FROM library
+WHERE pub_year = 2017;
+```
+
+### LIKE  Operator
+This operator can b eused inside a **WHERE** clause. There are 2 wildcard can be used with **LIKE**:
+- _ Wildcard: is used to match any single unspecified character.
+  
+  ```SQL
+  SELECT name
+  FROM movies
+  WHERE name LIKE '_ove';
+  ```  
+  
+- % Wildcard: ised used match to match zero or more unspecified characters. Below example will match any movies starting with "The"
+  
+  ```SQL
+  SELECT name
+  FROM movies
+  WHERE name LIKE 'The%';
+  ```
+ 
+### NULL Values
+NULL value can be matched or not matched by using **IS NULL** or **IS NOT NULL** and WHERE clause.
+
+```SQL
+SELECT address
+FROM records
+WHERE address IS NOT NULL;
+```
+
+### BETWEEN Operator
+
+```SQL
+SELECT *
+FROM movies
+WHERE year BETWEEN 1980 AND 1990;
+```
+
+### AND Operator
+
+```SQL
+SELECT model
+FROM cars
+WHERE color = 'blue'
+  AND year > 2014;
+```
+  
+### OR Opertor
+
+```SQL
+SELECT name
+FROM customers
+WHERE state = 'CA'
+  OR state = 'NY';
+```
+### ORDER BY Clause
+This can be used to sort the result by particular column in descending (with **DESC** keyword) or ascending (with **ASC** keyword) order.
+
+```SQL
+SELECT *
+FROM contacts
+ORDER BY birth_date DESC;
+```
+
+### LIMIT Clause
+This is used to narrow or limit the result. The below example is to select 5 rows.
+
+```SQL
+SELECT *
+FROM movies
+LIMIT 5;
+```
