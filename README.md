@@ -29,7 +29,7 @@
 *Cheatsheet is referred from materials of Codecademy*
 
 
-## MANIPULATION:
+## [MANIPULATION]():
 
 ### CREATE TABLE Statement: creates a new table.
 The **CREATE TABLE** statement creates a new table in a database.
