@@ -28,9 +28,9 @@
 
 *Cheatsheet is referred from materials of Codecademy*
 
-
+<hr>
 :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
-
+<hr>
 
 ## [MANIPULATION](#manipulation-):
 
@@ -93,7 +93,9 @@ CREATE TABLE student (
 );
 ```
 
+<hr>
 :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: 
+<hr>
 
 ## [QUERIES](#queries-)
 
