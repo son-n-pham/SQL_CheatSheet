@@ -13,7 +13,7 @@
     + [AS Clause: renames a column or table.](#as-clause--renames-a-column-or-table)
     + [DISTINCT Clause: return unique values.](#distinct-clause--return-unique-values)
     + [WHERE Clause: is a popular command to filter the results of the query based on specified conditions.](#where-clause--is-a-popular-command-to-filter-the-results-of-the-query-based-on-specified-conditions)
-    + [LIKE  Operator](#like--operator)
+    + [LIKE Operator](#like--operator)
       - [_ Wildcard: is used to match any single unspecified character.](#--wildcard--is-used-to-match-any-single-unspecified-character)
       - [% Wildcard: ised used match to match zero or more unspecified characters. Below example will match any movies starting with "The"](#--wildcard--ised-used-match-to-match-zero-or-more-unspecified-characters-below-example-will-match-any-movies-starting-with--the-)
     + [NULL Values](#null-values)
@@ -132,7 +132,7 @@ FROM library
 WHERE pub_year = 2017;
 ```
 
-### LIKE  Operator
+### LIKE Operator
 This operator can be used inside a **WHERE** clause. There are 2 wildcard can be used with **LIKE**:
 #### _ Wildcard: is used to match any single unspecified character.
   
