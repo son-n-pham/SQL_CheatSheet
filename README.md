@@ -3,7 +3,7 @@
 - [SQL CheatSheet](#sql-cheatsheet)
   * [MANIPULATION](#manipulation)
     + [CREATE TABLE Statement: creates a new table.](#create-table-statement--creates-a-new-table)
-    + [INSERT INTO Statement: adds a new row to a table.](#insert-into-statement--adds-a-new-row-to-a-table)
+    + [*INSERT INTO Statement* adds a new row to a table.](#-insert-into-statement--adds-a-new-row-to-a-table)
     + [UPDATE Statement: edits a row in a table.](#update-statement--edits-a-row-in-a-table)
     + [ALTER TABLE Statement: changes an existing table.](#alter-table-statement--changes-an-existing-table)
     + [DELETE Statement: deletes rows from a table.](#delete-statement--deletes-rows-from-a-table)
@@ -13,7 +13,7 @@
     + [AS Clause: renames a column or table.](#as-clause--renames-a-column-or-table)
     + [DISTINCT Clause: return unique values.](#distinct-clause--return-unique-values)
     + [WHERE Clause: is a popular command to filter the results of the query based on specified conditions.](#where-clause--is-a-popular-command-to-filter-the-results-of-the-query-based-on-specified-conditions)
-    + [LIKE Operator](#like--operator)
+    + [LIKE Operator](#like-operator)
       - [_ Wildcard: is used to match any single unspecified character.](#--wildcard--is-used-to-match-any-single-unspecified-character)
       - [% Wildcard: ised used match to match zero or more unspecified characters. Below example will match any movies starting with "The"](#--wildcard--ised-used-match-to-match-zero-or-more-unspecified-characters-below-example-will-match-any-movies-starting-with--the-)
     + [NULL Values](#null-values)
@@ -25,6 +25,7 @@
     + [CASE Statement: creates different outputs.](#case-statement--creates-different-outputs)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 *Cheatsheet is referred from materials of Codecademy*
 
@@ -44,7 +45,7 @@ CREATE TABLE table_name (
  )
  ```
 
-### INSERT INTO Statement: adds a new row to a table.
+### *INSERT INTO Statement* adds a new row to a table.
 The **INSERT INTO** statement is used to add a new record (row) to a table, which has 2 forms:
 ```SQL
 -- Insert into columns in order:
