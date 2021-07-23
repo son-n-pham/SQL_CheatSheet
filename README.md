@@ -1,5 +1,29 @@
 # SQL CheatSheet
 
+- [SQL CheatSheet](#sql-cheatsheet)
+  * [MANIPULATION:](#manipulation-)
+    + [CREATE TABLE Statement](#create-table-statement)
+    + [INSERT Statement](#insert-statement)
+    + [UPDATE Statement](#update-statement)
+    + [ALTER TABLE Statement](#alter-table-statement)
+    + [DELETE Statement](#delete-statement)
+    + [Column Constraints](#column-constraints)
+  * [QUERIES:](#queries-)
+    + [SELECT Statement:](#select-statement-)
+    + [AS Clause](#as-clause)
+    + [DISTINCT Clause](#distinct-clause)
+    + [WHERE Clause](#where-clause)
+    + [LIKE  Operator](#like--operator)
+    + [NULL Values](#null-values)
+    + [BETWEEN Operator](#between-operator)
+    + [AND Operator](#and-operator)
+    + [OR Opertor](#or-opertor)
+    + [ORDER BY Clause](#order-by-clause)
+    + [LIMIT Clause](#limit-clause)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## MANIPULATION:
 
 ### CREATE TABLE Statement
