@@ -1,5 +1,8 @@
 # SQL CheatSheet
 
+[MNIPULATION](## MANIPULATION:)
+
+
 ## MANIPULATION:
 
 ### CREATE TABLE Statement
