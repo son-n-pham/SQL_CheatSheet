@@ -28,6 +28,7 @@
 
 *Cheatsheet is referred from materials of Codecademy*
 
+<hr>
 
 ## [MANIPULATION]():
 
