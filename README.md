@@ -63,5 +63,5 @@ CREATE TABLE student (
 ## QUERIES:
 
 ### SELECT Statement:
-The **SELECT \* **
+The <b>SELECT *</b>
 
