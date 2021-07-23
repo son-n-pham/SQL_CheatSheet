@@ -1,13 +1,13 @@
 # SQL CheatSheet
 
-- [[MANIPULATION](#manipulation-):](#-manipulation---manipulation---)
+- [MANIPULATION](#manipulation)
   * [CREATE TABLE Statement: creates a new table.](#create-table-statement--creates-a-new-table)
   * [INSERT INTO Statement: adds a new row to a table.](#insert-into-statement--adds-a-new-row-to-a-table)
   * [UPDATE Statement: edits a row in a table.](#update-statement--edits-a-row-in-a-table)
   * [ALTER TABLE Statement: changes an existing table.](#alter-table-statement--changes-an-existing-table)
   * [DELETE Statement: deletes rows from a table.](#delete-statement--deletes-rows-from-a-table)
   * [Column Constraints: add information about how a column can be used.](#column-constraints--add-information-about-how-a-column-can-be-used)
-- [[QUERIES](#queries-)](#-queries---queries--)
+- [QUERIES](#queries)
   * [SELECT Statement: is the clause we use every time we want to query information from a database.](#select-statement--is-the-clause-we-use-every-time-we-want-to-query-information-from-a-database)
   * [AS Clause: renames a column or table.](#as-clause--renames-a-column-or-table)
   * [DISTINCT Clause: return unique values.](#distinct-clause--return-unique-values)
@@ -31,7 +31,7 @@
 :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
 <hr>
 
-## [MANIPULATION]:
+## MANIPULATION
 
 ### CREATE TABLE Statement: creates a new table.
 The **CREATE TABLE** statement creates a new table in a database.
@@ -96,7 +96,7 @@ CREATE TABLE student (
 :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: :muscle: 
 <hr>
 
-## [QUERIES](#queries-)
+## QUERIES
 
 ### SELECT Statement: is the clause we use every time we want to query information from a database.
 The <b>SELECT *</b> statement returns all columns from the provided table in the result. We can also select any column by its header.
