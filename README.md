@@ -120,7 +120,7 @@ WHERE pub_year = 2017;
 ```
 
 ### LIKE  Operator
-This operator can b eused inside a **WHERE** clause. There are 2 wildcard can be used with **LIKE**:
+This operator can be used inside a **WHERE** clause. There are 2 wildcard can be used with **LIKE**:
 - _ Wildcard: is used to match any single unspecified character.
   
   ```SQL
@@ -187,4 +187,41 @@ This is used to narrow or limit the result. The below example is to select 5 row
 SELECT *
 FROM movies
 LIMIT 5;
+```
+
+### CASE Statement
+This is SQL's way of handling if-then logic
+
+```SQL
+SELECT name,
+  CASE
+    WHEN genre = 'romance' THEN 'Chill'
+    WHEN genre = 'comedy' THEN 'Chill'
+    ELSE 'Intense'
+  END
+FROM movies;
+```
+![image](https://user-images.githubusercontent.com/79841341/126802950-3effc9fc-b618-4675-b50d-3e2db157fc00.png)
+
+```SQL
+SELECT name,
+  CASE
+    WHEN genre = 'romance' THEN 'Chill'
+    WHEN genre = 'comedy' THEN 'Chill'
+    ELSE 'Intense'
+  END AS 'Mood'
+FROM movies;
+```
+
+![image](https://user-images.githubusercontent.com/79841341/126803072-467b61a2-4b0d-4ff9-bc4d-6114699cebf7.png)
+
+OR operator can be used to have the same result as above.
+
+```SQL
+SELECT name,
+  CASE
+    WHEN genre = 'romance' OR genre = 'comedy' THEN 'Chill'
+    ELSE 'Intense'
+  END AS 'Mood'
+FROM movies;
 ```
