@@ -257,7 +257,7 @@ FROM movies;
 ### ROUND rounds the values in a column
 
 ### GROUP BY groups the values in a column before other operation
-**GROUP BY** comes after **WHERE** but before **ORDER BY** or **LIMIT**.
+*GROUP BY* comes after *WHERE* but before *ORDER BY* or *LIMIT*.
 
 ```SQL
 SELECT year, AVG(imdb_rating)
@@ -267,7 +267,7 @@ ORDER BY year DESC
 LIMIT 3;
 ```
 
-**GROUP BY** allows to use number index to replace column in SELECT. The below give the same result.
+*GROUP BY* allows to use number index to replace column in SELECT. The below give the same result.
 
 ```SQL
 SELECT ROUND(imdb_rating),
@@ -283,6 +283,20 @@ SELECT ROUND(imdb_rating),
 FROM movies
 GROUP BY 1
 ORDER BY 2;
+```
+
+### HAVING filter groups from GROUP BY
+*HAVING* comes after *GROUP BY* and before *ORDER BY* and *LIMIT*.
+- HAVING filters groups
+- WHERE filters rows (records)
+
+```SQL
+SELECT price,
+  ROUND(AVG(downloads)),
+  COUNT(*)
+FROM fake_apps
+GROUP BY price
+HAVING COUNT(*) > 10;
 ```
 
 
