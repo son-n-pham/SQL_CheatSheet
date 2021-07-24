@@ -381,7 +381,7 @@ SELECT *
 FROM table2;
 ```
 
-### WITH is used to combine two tables but at least one of them is the result of another calculation.
+### WITH combines two tables which at least one of them is the result of another calculation.
 Let's dive into an example to understand *WITH*
 
 ```SQL
