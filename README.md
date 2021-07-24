@@ -305,5 +305,5 @@ HAVING COUNT(*) > 10;
 
 ## MULTIPLES TABLES
 
-![image](https://user-images.githubusercontent.com/79841341/126866927-8bb47265-5187-4fa3-a2d4-9191a98df755.png)
+![image](https://content.codecademy.com/courses/learn-sql/multiple-tables/inner-join.gif)
 
