@@ -23,6 +23,21 @@
     + [ORDER BY Clause sorts the result.](#order-by-clause-sorts-the-result)
     + [LIMIT Clause specifies the maximum number of rows that the query will return.](#limit-clause-specifies-the-maximum-number-of-rows-that-the-query-will-return)
     + [CASE Statement creates different outputs.](#case-statement-creates-different-outputs)
+  * [AGGREGATE](#aggregate)
+    + [COUNT counts the number of rows](#count-counts-the-number-of-rows)
+    + [SUM returns the sum of the values in a column](#sum-returns-the-sum-of-the-values-in-a-column)
+    + [MAX and MIN returns the largest and smallest values in a column](#max-and-min-returns-the-largest-and-smallest-values-in-a-column)
+    + [AVG returns the average in a column](#avg-returns-the-average-in-a-column)
+    + [ROUND rounds the values in a column](#round-rounds-the-values-in-a-column)
+    + [GROUP BY groups the values in a column before other operation](#group-by-groups-the-values-in-a-column-before-other-operation)
+    + [HAVING filter groups from GROUP BY](#having-filter-groups-from-group-by)
+  * [MULTIPLES TABLES](#multiples-tables)
+    + [INNER JOIN returns table with rows match the ON condition](#inner-join-returns-table-with-rows-match-the-on-condition)
+    + [LEFT JOIN](#left-join)
+    + [Primary Key vs Foreign Key](#primary-key-vs-foreign-key)
+    + [CROSS JOIN combines all rows of one table with all rows of another table](#cross-join-combines-all-rows-of-one-table-with-all-rows-of-another-table)
+    + [UNION allows to stack one table on top of the other table](#union-allows-to-stack-one-table-on-top-of-the-other-table)
+    + [WITH is used to combine two tables but at least one of them is the result of another calculation.](#with-is-used-to-combine-two-tables-but-at-least-one-of-them-is-the-result-of-another-calculation)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
