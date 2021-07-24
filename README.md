@@ -204,7 +204,7 @@ LIMIT 5;
 ```
 
 ### CASE Statement creates different outputs.
-This is SQL's way of handling if-then logic.
+This is SQL's way of handling if-then logic. This will return a new column.
 
 ```SQL
 SELECT name,
@@ -239,3 +239,50 @@ SELECT name,
   END AS 'Mood'
 FROM movies;
 ```
+
+<hr>
+:innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: :innocent: 
+<hr>
+
+## AGGREGATE
+
+### COUNT counts the number of rows
+
+### SUM returns the sum of the values in a column
+
+### MAX and MIN returns the largest and smallest values in a column
+
+### AVG returns the average in a column
+
+### ROUND rounds the values in a column
+
+### GROUP BY groups the values in a column before other operation
+**GROUP BY** comes after **WHERE** but before **ORDER BY** or **LIMIT**.
+
+```SQL
+SELECT year, AVG(imdb_rating)
+FROM movies
+GROUP BY year
+ORDER BY year DESC
+LIMIT 3;
+```
+
+**GROUP BY** allows to use number index to replace column in SELECT. The below give the same result.
+
+```SQL
+SELECT ROUND(imdb_rating),
+   COUNT(name)
+FROM movies
+GROUP BY ROUND(imdb_rating)
+ORDER BY ROUND(imdb_rating);
+```
+
+```SQL
+SELECT ROUND(imdb_rating),
+   COUNT(name)
+FROM movies
+GROUP BY 1
+ORDER BY 2;
+```
+
+
