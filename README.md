@@ -305,5 +305,20 @@ HAVING COUNT(*) > 10;
 
 ## MULTIPLES TABLES
 
-![image](https://content.codecademy.com/courses/learn-sql/multiple-tables/inner-join.gif)
+### INNER JOIN returns table with rows match the ON condition
+INNER JOIN is the default JOIN function.
+
+![inner_join](https://content.codecademy.com/courses/learn-sql/multiple-tables/inner-join.gif)
+
+```SQL
+SELECT COUNT(*)
+FROM newspaper
+JOIN online
+ON newspaper.id = online.id;
+```
+
+### LEFT JOIN
+
+![left_join](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
+
 
