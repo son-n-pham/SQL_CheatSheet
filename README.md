@@ -329,4 +329,58 @@ on table1.C2 = table2.C2;
 
 ![left_join](https://content.codecademy.com/courses/learn-sql/multiple-tables/left-join.gif)
 
+### Primary Key vs Foreign Key
+Each table has a column, *primary key*, that uniquely identifies each of row.
 
+*Primary keys* have a few requirements:
+- None of the value is NULL
+- Each value must be unique
+- A table can only have one primary key column
+
+When the *primary key* of one table appears in a different table, it is called a foreign key of that table.
+
+Why is this important? JOIN usually joins a foreign key from one table with the primary key from another table.
+
+### CROSS JOIN combines all rows of one table with all rows of another table
+A common usage of *CROSS JOIN* is to compare each row of a table to a list of values.
+
+Example of *CROSS JOIN*:
+
+```SQL
+SELECT shirts.shirt_color,
+  pants.pants_color
+FROM shirts
+CROSS JOIN pants;
+```
+
+### UNION allows to stack one table on top of the other table
+Strict rules are applied for this appending data:
+- Tables must have the same number of columns.
+- The columns must have the same data types in the same order as the first table.
+
+```SQL
+SELECT *
+FROM table1
+UNION
+SELECT *
+FROM table2;
+```
+
+### WITH is used to combine two tables but at least one of them is the result of another calculation.
+Let's dive into an example to understand *WITH*
+
+```SQL
+WITH previous_query AS (
+  SELECT customer_id,
+   COUNT(subscription_id) AS 'subscriptions'
+  FROM orders
+  GROUP BY customer_id
+)
+SELECT customers.customer_name,
+  previous_query.subscriptions
+FROM previous_query
+JOIN customers
+ON previous_query.customer_id = customers.customer_id
+```
+
+*WITH* is used to create an aliased table previous_query whose whole query syntax is put into () after AS. Then the aliased previous_query can be used as a normal table to JOIN with the customer table.
