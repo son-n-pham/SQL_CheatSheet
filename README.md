@@ -85,7 +85,6 @@ The **ALTER TABLE** statement is used to modify the columns of an existing table
 ALTER TABLE table_name
 ADD column_name datetype;
 ```
-![image](https://user-images.githubusercontent.com/79841341/127125370-2495f8c2-1666-4239-859f-363a08242c46.png)
 
 ### DELETE Statement deletes rows from a table.
 The **DELETE** statement is used to delete records (rows) is a table. The **WHERE** clause specifies which record or records that should be deleted. If the **WHERE** clause is omitted, all records will be deleted.
