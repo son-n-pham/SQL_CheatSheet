@@ -10,7 +10,7 @@
     + [Column Constraints add information about how a column can be used.](#column-constraints-add-information-about-how-a-column-can-be-used)
   * [QUERIES](#queries)
     + [SELECT Statement is the clause we use every time we want to query information from a database.](#select-statement-is-the-clause-we-use-every-time-we-want-to-query-information-from-a-database)
-    + [AS Clause renames a column or table.](#as-clause-renames-a-column-or-table)
+    + [AS Clause renames a column or table.](#as-clause-renames-a-column-or-table-by-an-alias)
     + [DISTINCT Clause returns unique values.](#distinct-clause-returns-unique-values)
     + [WHERE Clause is a popular command to filter the results of the query based on specified conditions.](#where-clause-is-a-popular-command-to-filter-the-results-of-the-query-based-on-specified-conditions)
     + [LIKE Operator](#like-operator)
@@ -122,7 +122,7 @@ SELECT *
 FROM movies;
 ```
 
-### AS Clause renames a column or table.
+### AS Clause renames a column or table by an alias.
 Columns or tables can be aliased using <b>AS</b> clause.
 
 ```SQL
