@@ -121,6 +121,10 @@ Typical of a query is:
 SELECT <column>
 FROM <table>
 WHERE <rowconditions>
+GROUP BY groups
+HAVING groupconditions
+ORDER BY sortcolumns
+LIMIT numrows;
 ```
 
 ### SELECT Statement is the clause we use every time we want to query information from a database.
