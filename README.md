@@ -114,6 +114,15 @@ CREATE TABLE student (
 
 ## QUERIES
 
+### Structure of a query
+Typical of a query is:
+
+```SQL
+SELECT <column>
+FROM <table>
+WHERE <rowconditions>
+```
+
 ### SELECT Statement is the clause we use every time we want to query information from a database.
 The <b>SELECT *</b> statement returns all columns from the provided table in the result. We can also select any column by its header.
 
