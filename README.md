@@ -44,7 +44,7 @@
 *Cheatsheet is referred from materials of Codecademy*
 
 <hr>
-:ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
+:muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle::muscle:
 <hr>
 
 ## DOT COMMANDS
@@ -57,6 +57,10 @@ I find some commands helpful to me. More will be added if I found them useful du
 - .tables list all tables
 - .headers on|off to toogle header row
 - .fullschhema to show the schema of the table
+
+<hr>
+:ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
+<hr>
 
 ## MANIPULATION
 
