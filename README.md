@@ -47,6 +47,17 @@
 :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: :ok_hand: 
 <hr>
 
+## DOT COMMANDS
+
+Once in sqlite3, *.help* will list all available dot command.
+
+![image](https://user-images.githubusercontent.com/79841341/127645989-c35a382f-e432-4acc-9297-b9f282ef5eb7.png)
+
+I find some commands helpful to me. More will be added if I found them useful during the course.
+- .tables list all tables
+- .headers on|off to toogle header row
+- .fullschhema to show the schema of the table
+
 ## MANIPULATION
 
 ### CREATE TABLE Statement creates a new table.
