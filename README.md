@@ -1,5 +1,8 @@
 # SQL CheatSheet
 
+![image](https://user-images.githubusercontent.com/79841341/127939896-4c8e000e-e50b-447b-a968-a5b2c2fc1327.png)
+
+
 - [SQL CheatSheet](#sql-cheatsheet)
   * [MANIPULATION](#manipulation)
     + [CREATE TABLE Statement creates a new table.](#create-table-statement-creates-a-new-table)
