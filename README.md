@@ -1,5 +1,22 @@
 # SQL CheatSheet
 
+## Class
+
+### Week 2
+
+Constraints:
+- SQL implement many constraints to protect data integrity
+- These are called internal constraints
+- They are:
+ - Domain Constraints
+ - Key Constraints
+ - Referential Integrity
+
+Normalisation
+Split data into tables to avoid redundancy.
+- Redundancy in a database when the data is stored in more than one table.
+
+
 - [SQL CheatSheet](#sql-cheatsheet)
   * [MANIPULATION](#manipulation)
     + [CREATE TABLE Statement creates a new table.](#create-table-statement-creates-a-new-table)
