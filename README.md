@@ -1,5 +1,15 @@
 # SQL CheatSheet
 
+Database Management System (DBMS) is any system which allow to implete the below with data:
+- Create
+- Read
+- Update
+- Delete
+
+SQL commands are dividedinto 2 groups:
+- Data Definition Language (DDL): Define the structure of teh database
+- Data Manipulation Language (DML): manipulate the data (CRUD) in the database
+
 ## Class
 
 ### Week 2
