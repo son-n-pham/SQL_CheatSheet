@@ -1,6 +1,3 @@
-<iframe src="https://scratch.mit.edu/projects/567468200/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
-
 # SQL CheatSheet
 
 Database Management System (DBMS) is any system which allow to implete the below with data:
